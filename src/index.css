@@ -1,0 +1,115 @@
+
+@import url("https://fonts.googleapis.com/css?family=Inter");
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #23252c;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+.container {
+  margin-left: 45%;
+  margin-top: 30px;
+}
+
+.img {
+  border-radius: 8px;
+}
+
+.Card {
+  position: absolute;
+  padding: 10px;
+  color: #ffff;
+  background-color: #1a1b21;
+  width: 263px;
+  margin-top: -10px;
+}
+
+.name {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.profession {
+  color: #f3bf99;
+  text-align: center;
+  font-size: 12.8px;
+  margin-top: -18px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.github {
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  background: #fff;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  padding: 9px 13px 9px 11px;
+  width: 115px;
+}
+
+.Linkedin {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  background-color: #5093e2;
+  border-radius: 6px;
+  border: 1px solid #5093e2;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  padding: 9px 13px 9px 11px;
+  width: 115px;
+}
+
+.github:hover,
+.Linkedin:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+}
+
+.icon:hover {
+ cursor: pointer;
+ color: #f3bf99;
+ transform: scale(1.1);
+}
+
+.About,
+.Intrests {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.about-me,
+.my-intrests {
+  color: #dcdcdc;
+  font-size: 13px;
+  line-height: 150%;
+  margin-top: -15px;
+}
+
+.socials {
+  margin-top: 438px;
+  display: flex;
+  gap: 25px;
+  width: 283px;
+  justify-content: center;
+  align-items: center;
+  background-color: #161619;
+  border-radius: 0px 0px 10px 10px;
+  padding: 10px 0;
+}
+.icon {
+  color: #d1d5db;
+}
