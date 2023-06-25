@@ -10,8 +10,9 @@ body {
 }
 
 .container {
-  margin-left: 45%;
   margin-top: 30px;
+  margin-left: 40px;
+
 }
 
 .img {
@@ -112,4 +113,11 @@ body {
 }
 .icon {
   color: #d1d5db;
+}
+
+@media screen and (min-width: 768px) {
+  .container{
+    margin-top: 30px;
+    margin-left: 35%;
+  }
 }
